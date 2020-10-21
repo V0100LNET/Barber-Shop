@@ -1,3 +1,7 @@
+$color: #000;
+$fontMain: 'Kaushan Script', cursive;
+$fontSecundary: 'Poppins', sans-serif;
+
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -7,7 +11,7 @@
 }
 
 body{
-    font-family: 'Noto Sans JP', sans-serif;
+    
 }
 
-@import "";
+@import "bannerSection";
