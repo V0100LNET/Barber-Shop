@@ -16,7 +16,7 @@
   width: 140px;
   position: absolute;
   top: 4%;
-  left: 10%;
+  left: 2%;
 }
 #banner .bannert-text {
   text-align: center;
@@ -61,6 +61,42 @@
 }
 #banner .banner-btn a:hover {
   color: #000;
+}
+
+#sideNav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #009688;
+  z-index: 2;
+}
+#sideNav nav {
+  margin: 0px;
+  padding: 3px;
+}
+#sideNav nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px;
+  margin: 10px 20px 40px 20px;
+}
+
+#menuBtn {
+  position: fixed;
+  right: 1%;
+  top: 15px;
+  z-index: 3;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  margin-top: -0.5rem;
+  color: #fff;
+}
+#menuBtn i:hover #sideNav {
+  background-color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

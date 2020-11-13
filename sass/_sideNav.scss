@@ -1,0 +1,44 @@
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #009688;
+    z-index: 2;
+
+    nav{
+        margin: 0px;
+        padding: 3px;
+        a{
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 5px;
+            margin: 10px 20px 40px 20px;
+        }
+    }
+}
+
+#menuBtn{
+    // text-align: center;
+    position: fixed;
+    right: 1%;
+    top: 15px;
+    // border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    margin-top: -0.5rem;
+    color: #fff;
+
+    i{
+        &:hover #sideNav{
+            background-color: black;
+        }        
+    }
+}
+
+
+
